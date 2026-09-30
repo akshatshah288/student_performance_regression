@@ -1,0 +1,3 @@
+# Conclusion
+
+Linear Regression has the lowest held-out RMSE on this split (2.075066) with R² = 0.988430, while training-only cross-validation selects Lasso. The three test RMSEs span only 0.000032 Performance Index points, so this comparison offers little evidence of a meaningful generalization advantage; ordinary Linear Regression is a reasonable simpler choice. Ridge applies L2 shrinkage and Lasso applies L1 shrinkage, but the selected penalties change the coefficients only slightly and Lasso sets 0 of 5 coefficients to zero, indicating little benefit from regularization for this synthetic dataset.
